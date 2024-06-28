@@ -1,6 +1,8 @@
+[![Ci-check](https://github.com/SugarTea2899/Azure-Devops-02/actions/workflows/pythonapp.yml/badge.svg?branch=master)](https://github.com/SugarTea2899/Azure-Devops-02/actions/workflows/pythonapp.yml)
+
 # Overview
 
-<TODO: complete this with an overview of your project>
+In this project, the objective is to develop a new GitHub repository and establish a framework that facilitates Continuous Integration and Continuous Delivery processes. This involves leveraging GitHub Actions alongside a Makefile, requirements.txt, and application code to execute an initial cycle of linting, testing, and installation. Following this, integration with Azure Pipelines will be implemented to enable seamless Continuous Delivery to Azure App Service.
 
 ## Project Plan
 
@@ -9,39 +11,16 @@
 
 ## Instructions
 
-<TODO:  
-* Architectural Diagram (Shows how key parts of the system work)>
+![Project Diagram](screenshots/diagram.png)
 
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
-* Project running on Azure App Service
-
-* Project cloned into Azure Cloud Shell
-
-* Passing tests that are displayed after running the `make all` command from the `Makefile`
-
-* Output of a test run
-
-* Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
-
-* Running Azure App Service from Azure Pipelines automatic deployment
-
-* Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
-The output should look similar to this:
-
-```bash
-udacity@Azure:~$ ./make_predict_azure_app.sh
-Port: 443
-{"prediction":[20.35373177134412]}
-```
-
-* Output of streamed log files from deployed application
-
-> 
 
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
+- Enhancing test coverage by adding additional test cases.
+- Developing a user interface for interactive prediction capabilities.
+- Transitioning from Azure Pipelines to GitHub Actions - for CI/CD automation.
+- Deploying the application on a Kubernetes cluster for scalable and resilient operation.
 
 ## Demo 
 
