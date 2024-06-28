@@ -44,6 +44,10 @@ In this project, the objective is to develop a new GitHub repository and establi
 
 ![](screenshots/05-azure-pipeline.png)
 
+3. Log Stream:
+
+![](screenshots/12-logstream.png)
+
 4. Deploy done:
 
 ![](screenshots/06-deployed-page.png)
