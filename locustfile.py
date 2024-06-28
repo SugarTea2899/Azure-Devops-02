@@ -4,14 +4,23 @@ class Test(HttpUser):
     
     @task
     def check_azure_prediction(self):
-        data = {
-            "features": {
-                "CHAS": 0,
-                "RM": 6.575,
-                "TAX": 296.0,
-                "PTRATIO": 15.3,
-                "B": 396.9,
-                "LSTAT": 4.98
+        self.client.post("/predict", json = {
+            "CHAS":{
+                "0":0
+            },
+            "RM":{
+                "0":6.575
+            },
+            "TAX":{
+                "0":291.0
+            },
+            "PTRATIO":{
+                "0":12.3
+            },
+            "B":{
+                "0":393.9
+            },
+            "LSTAT":{
+                "0":2.98
             }
-        }
-        self.client.post("/predict", json=data)
+        })

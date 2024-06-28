@@ -14,13 +14,53 @@ In this project, the objective is to develop a new GitHub repository and establi
 ![Project Diagram](screenshots/diagram.png)
 
 ### Could Shell
-1. Clone Repo in Could Shell:
+1. SSH Key Gen:
+
+![](screenshots/04-ssh-keygen.png)
+
+2. Clone Repo in Could Shell:
 
 ![](screenshots/01-clone-repo.png)
 
-2. Run `make all`:
+3. Run `make all`:
 
 ![](screenshots/02-test-passed.png)
+
+### GitHub Action (CI)
+1. Build code successfully:
+
+![](screenshots/03-passed-pipeline.png)
+
+### Azure Pipeline (CD)
+1. Config Agent:
+
+![](screenshots/10-self-hosted.png)
+
+2. Add pipeline:
+
+![](screenshots/11-add-yaml-pipeline.png)
+
+3. Pipeline triggered:
+
+![](screenshots/05-azure-pipeline.png)
+
+4. Deploy done:
+
+![](screenshots/06-deployed-page.png)
+
+5. Run prediction:
+
+![](screenshots/07-make-predict-azure-app.png)
+
+
+### Load test
+1. Run loadtest:
+
+![](screenshots/08-loadtest.png)
+
+2. Chart:
+
+![](screenshots/09-loadtest-chart.png)
 
 ## Enhancements
 
@@ -31,6 +71,6 @@ In this project, the objective is to develop a new GitHub repository and establi
 
 ## Demo 
 
-<TODO: Add link Screencast on YouTube>
+[My Demo](https://youtu.be/o7DAAzHWikc)
 
 
