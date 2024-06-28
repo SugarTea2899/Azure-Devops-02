@@ -33,7 +33,7 @@ def predict():
     except FileNotFoundError:
         LOG.error("Model file not found")
         return "Model not loaded", 500
-    except Exception as e:
+    except OSError as e:
         LOG.error("Error loading model: %s", e)
         return "Model not loaded", 500
 
