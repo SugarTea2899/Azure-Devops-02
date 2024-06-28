@@ -13,7 +13,14 @@ In this project, the objective is to develop a new GitHub repository and establi
 
 ![Project Diagram](screenshots/diagram.png)
 
+### Could Shell
+1. Clone Repo in Could Shell:
 
+![](screenshots/01-clone-repo.png)
+
+2. Run `make all`:
+
+![](screenshots/02-test-passed.png)
 
 ## Enhancements
 
